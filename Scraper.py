@@ -25,17 +25,15 @@ with open('%s.csv' %term,'w', encoding = 'utf-8') as csvfile:
                             'author':i.author,
                             'original content':i.is_original_content,
                             'selfpost':i.is_self,
-                            'stickied':i.stickied,
-                            'selftext':i.selftext,
                             'time created':ts,
-                            'id':i.id,
-                            'link flair text':i.link_flair_text,
+                            'stickied':i.stickied,
                             'locked':i.locked,
-                            'number of comments':i.num_comments,
                             'NSFW':i.over_18,
-                            'permalink':i.permalink,
+                            'selftext':i.selftext,
+                            'number of comments':i.num_comments,
                             'score':i.score,
                             'upvote ratio':i.upvote_ratio,
+                            'permalink':i.permalink,                
                             'url':i.url})
 
 print ('We did it!')
