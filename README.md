@@ -10,18 +10,30 @@ This script is designed to scrape the "hot" posts from the given subreddit (the 
 The script will output a .csv file with the name of the requested subreddt (e.g. 'trees.csv'). Each row in the .csv will contain this data for each post: 
 
 title: the title of the post
+
 author: the username of the poster
+
 original content: whether the post has been marked as original content (boolean)
-selfpost: whether the post has been marked as a selfpost (boolean)
-stickied: whether the post is "stickied" to the top of the subreddit (boolean)
-selftext: the body text of the post (if the post is a selfpost) 
+
 time created: the time (in UTC) the post was posted 
-id: 
+
+selfpost: whether the post has been marked as a selfpost (boolean)
+
+stickied: whether the post is "stickied" to the top of the subreddit (boolean)
+
 locked: whether the post has been locked by moderators (boolean)
-number of comments: the number of comments on the post
+
 NSFW: whether the post has been marked as containing adult content (boolean)
-permalink: a direct link to the post
+
+selftext: the body text of the post (if the post is a selfpost) 
+
+number of comments: the number of comments on the post
+
 score: the post's score (upvotes - downvotes) at the time of scraping
-upvote ration: the percentage of votes that have been upvotes
+
+upvote ratio: the percentage of votes that have been upvotes
+
+permalink: a direct link to the post
+
 url: the link included in the post or a link to the post itself (if selfpost)
 
