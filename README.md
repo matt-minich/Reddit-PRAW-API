@@ -15,9 +15,9 @@ author: the username of the poster
 
 original content: whether the post has been marked as original content (boolean)
 
-time created: the time (in UTC) the post was posted 
-
 selfpost: whether the post has been marked as a selfpost (boolean)
+
+time created: the time (in UTC) the post was posted 
 
 stickied: whether the post is "stickied" to the top of the subreddit (boolean)
 
