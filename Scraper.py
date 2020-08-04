@@ -2,8 +2,8 @@ import praw
 import csv
 from datetime import datetime
 
-reddit = praw.Reddit(client_id = 'f2sQGqpEwu1dMQ', client_secret='iJpriezf11TegBI6fPzgYbQ4AxE',
-                     username='mminich1' , password = 'password', user_agent ='Matt Minich mminich@wisc.edu' )
+reddit = praw.Reddit(client_id = 'Client_ID', client_secret='Client_secret',
+                     username='Username' , password = 'Password', user_agent ='User Agent' )
 
 
 term = input('Which subreddit would you like to scrape? ')
