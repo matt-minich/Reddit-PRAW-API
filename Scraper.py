@@ -14,7 +14,7 @@ subreddit = subterm.hot(limit=limit)
 #
 
 with open('%s.csv' %term,'w', encoding = 'utf-8') as csvfile:
-    fieldnames = ['title','author','original content','selfpost','stickied','selftext','time created','id','link flair text','locked','number of comments','NSFW','permalink','score','upvote ratio','url']
+    fieldnames = ['title','author','original content','selfpost','time created','stickied','locked','NSFW','selftext','number of comments','score','upvote ratio','permalink','url']
     filewriter = csv.DictWriter(csvfile, fieldnames = fieldnames)
     filewriter.writeheader()
 
