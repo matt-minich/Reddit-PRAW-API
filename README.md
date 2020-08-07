@@ -1,6 +1,8 @@
 # Reddit-PRAW-API
 A simple scraper for the Reddit PRAW API
 
+In developing this script, I relied heavily on the guidance (and the code) presented at <a href = 'https://pythonprogramming.net/introduction-python-reddit-api-wrapper-praw-tutorial/'>pythonprogramming.net</a> and the <a href 'https://praw.readthedocs.io/en/latest/'> official PRAW documentation </a>.
+
 This script allows the user to scrape data from a given number of posts (up to 1,000) for a given subreddit.
 The user will first need a Client ID, Client Secret, username, password, and user agent. These values should be manually inserted into the code. 
 
@@ -26,6 +28,8 @@ locked: whether the post has been locked by moderators (boolean)
 NSFW: whether the post has been marked as containing adult content (boolean)
 
 selftext: the body text of the post (if the post is a selfpost) 
+
+comment forest: a list of the comments for the post, including replies. Each comment and reply is presented with its score and the author's username. Be aware that this output often exceeds the character limit for individual an individual cell in Microsoft Excel. 
 
 number of comments: the number of comments on the post
 
