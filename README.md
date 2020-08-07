@@ -1,7 +1,7 @@
 # Reddit-PRAW-API
 A simple scraper for the Reddit PRAW API
 
-In developing this script, I relied heavily on the guidance (and the code) presented at <a href = 'https://pythonprogramming.net/introduction-python-reddit-api-wrapper-praw-tutorial/'>pythonprogramming.net</a> and the <a href 'https://praw.readthedocs.io/en/latest/'> official PRAW documentation </a>.
+In developing this script, I relied heavily on the guidance (and the code) presented at <a href = 'https://pythonprogramming.net/introduction-python-reddit-api-wrapper-praw-tutorial/'>pythonprogramming.net</a> and the <a href = 'https://praw.readthedocs.io/en/latest/'>official PRAW documentation </a>.
 
 This script allows the user to scrape data from a given number of posts (up to 1,000) for a given subreddit.
 The user will first need a Client ID, Client Secret, username, password, and user agent. These values should be manually inserted into the code. 
