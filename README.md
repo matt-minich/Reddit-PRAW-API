@@ -29,7 +29,7 @@ NSFW: whether the post has been marked as containing adult content (boolean)
 
 selftext: the body text of the post (if the post is a selfpost) 
 
-comment forest: a list of the comments for the post, including replies. Each comment and reply is presented with its score and the author's username. Be aware that this output often exceeds the character limit for individual an individual cell in Microsoft Excel. 
+comment forest: a list of the comments for the post, including replies. Each comment and reply is presented with its score and the author's username. Be aware that this output often exceeds the character limit for an individual cell in Microsoft Excel. 
 
 number of comments: the number of comments on the post
 
